@@ -194,20 +194,44 @@ body img{
     font-size: 20px;
     border-radius: 50%;
 }
+.link-deezer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 50%;
+}
+.link-whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 50%;
+}
 .footer-copy{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 40px;
-    color: rgb(128, 128, 128);
-    font-weight: 700;
+    color: rgb(211, 211, 211);
 }
 .footer-contato{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
 }
-
 .btn-check{
     display: absolute;
     position: relative;
@@ -259,8 +283,8 @@ body img{
         z-index: 1000;
     }
     .menuTop #menu a{
+        padding-left: 2rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin-left: 2.5rem;
         display: block;
         color: rgb(199, 199, 199);
     }
@@ -305,5 +329,9 @@ body img{
     }
     #nav.active .fa-times{
         opacity: 1;
+    }
+    .footer{
+        width: 100%;
+        height: 15em;
     }
 }
