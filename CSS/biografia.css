@@ -1,0 +1,16 @@
+.main-container{
+    position: relative;
+    min-height: 100%;
+}
+.section-historia{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container-image{
+    margin: 10px;
+    width: 20em;
+    height: 30em;
+    background-color: aquamarine;
+}
